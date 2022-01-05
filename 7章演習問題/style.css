@@ -1,0 +1,28 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+header{
+  width:100%;
+  height:400px;
+  background-image:url(img/mv.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+.heading{
+  color:gray;
+  padding:20px;
+}
+.blog{
+  width:840px;
+  margin:50px auto;
+}
+.blog-item{
+  border-bottom:1px solid gray;
+  padding-bottom:30px;
+  margin-bottom:30px;
+}
+.blog-item:last-child{
+  margin-bottom:0;
+}
